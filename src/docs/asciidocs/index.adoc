@@ -1,0 +1,45 @@
+= Spring REST Docs
+Example output of REST API at http://localhost:9651
+
+1- Create Endpoint
+
+
+.request
+include::{snippets}/test-create/http-request.adoc[]
+.response
+include::{snippets}/test-create/http-response.adoc[]
+
+2- Get by id Endpoint
+
+.request
+include::{snippets}/test-get-by-id/http-request.adoc[]
+.response
+include::{snippets}/test-get-by-id/http-response.adoc[]
+
+3- Get by external reference endpoint
+
+.request
+include::{snippets}/test-get-by-external-reference/http-request.adoc[]
+.response
+include::{snippets}/test-get-by-external-reference/http-response.adoc[]
+
+4- No Record found - Error message
+
+.request
+include::{snippets}/test-error-message-when-no-record-found/http-request.adoc[]
+.response
+include::{snippets}/test-error-message-when-no-record-found/http-response.adoc[]
+
+5- Input validation failed - Error message
+
+.request
+include::{snippets}/test-create-with-field-validation-error/http-request.adoc[]
+.response
+include::{snippets}/test-create-with-field-validation-error/http-response.adoc[]
+
+6- Internal server error - Error message
+
+.request
+include::{snippets}/test-error-message-when-internal-server-error/http-request.adoc[]
+.response
+include::{snippets}/test-error-message-when-internal-server-error/http-response.adoc[]

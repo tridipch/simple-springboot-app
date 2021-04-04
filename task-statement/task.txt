@@ -1,0 +1,25 @@
+Create a Spring Boot application based on the following requirements:
+
+
+
+- Use Maven and Java
+
+- Create an entity with 3 different types (Spring Data JPA + in memory database)
+
+- Create a rest API for the creation and retrieval of this entity (for example @RestController)
+
+- Validate the input on the RestController when an entity is created (JSR303 Bean validation, @Valid annotation)
+
+- Apply security (Spring Security), by protecting your rest API with Basic Auth.
+
+- Make the health and metrics endpoints available (Actuator)
+
+- Put your code on Github, Bitbucket or Gitlab.
+
+
+
+Extra challenges:
+
+- Create a Docker image wich contains your application
+
+- Generate documentation of the REST API with the help of Spring REST Docs
